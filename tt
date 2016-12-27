@@ -1,0 +1,22 @@
+
+^https:\/\/www\.douban\.com\/people\/[^\/\n]+(|\/)$
+
+
+315213635156346
+
+https://www.douban.com/people/
+fdsfsdfdfsfas
+https://www.douban.com/people/maxuewe_jiji+fdsfds
+fsfsdf
+https://www.douban.com/people/maxuewei2/
+fdsfsfsd
+https://www.douban.com/people/maxuewei2/online
+
+
+
+u'男', u'时', u'才', u'当', u'╭', u'那么', u'一直', u'他们', u'听', u'❤', u'╮', u'比', u'↓', u'觉得', u'Hong', u'」', u'〓', u'为了', u'再', u'走', u'用', u'Kong', u'可能', u'可', u'问题', u'你们', u'一次', u'年度', u'者', u'于', u'死', u'站', u'’', u'讨厌', u'subject', u'一些', u'心', u'「', u'u',  u'跟', u'但是', u'下', u'便', u'太', u'已', u'每个',u'...', u'叫', u'这里', u'很多', u'如', u'那个', u'想要', u'将', u'以', u'从', u'新', u'逼', u'－', u'━', u'4', u'那些', u'๑', u'带', u'应该', u'然后', u'如此', u'所', u'一定', u'无法', u'm', u'□', u'lofter', u'吗', u'呢', u'这些', u'♡', u';', u'吃', u'8', u'￣', u'相册', u'每', u'真的', u'7', u'自', u'doulist', u'各种', u'You', u'找到', u'每天', u'感觉', u'偶尔', u'小站', u'6', u'转载', u'X', u'女', u'[', u']', u'也许', u'加', u'\', u'最后', u'不过', u'profile', u'以及', u'✂', u'起来', u'有人', u'＊', u'城市', u'容易', u'é', u'´', u'老', u'能够', u'●', u'爱好', u'非常', u'子', u'真正', u'了解', u'方式', u'由', u'拍', u'┃', u'更新', u'°', u'一只', u'关于', u'总是', u'别', u'真', u'平台', u'one', u'前', u'这么', u'9', u'女性', u'职业', u'以后', u'☠', u'And', u'', u'MAO', u'ID', u'我会', u'正', u'豆油', u'QQ', u'姑娘', u'丨', u'这是', u'认识', u'而是', u'net', u'淘宝', u'特别', u'可是', u'话', u'亦', u'注明', u'一条', u'推荐', u'找', u'变得', u'html', u'学', u'✿', u'您', u'event', u'̿', u'ω', u'只要', u'
+', u'取消', u'重要', u'0', u'使', u'终于', u'系列', u'♣', u'不再', u'©', u'instagram', u'除了', u'目标', u'男人', u'◆', u'名字', u'作者',  u'开始', u'即使', u'其他', u'完', u'之间', u'不好', u'作为',  u'点', u'分享', u'若', u'A', u'账号', u'还有', u'只能', u'ღ', u'哦', u'º', u'曾', u'出', u'性别', u'鸟', u'起', u'id', u'一枚', u'变成', u'有些', u'topic',
+
+
+
+Rule(SgmlLinkExtractor(allow = (r'https://www\.douban\.com/people/*',),deny = (r'https://www\.douban\.com/people/*/online',r'https://www\.douban\.com/people/*/subjects',)), callback = 'parse_page',follow="true"),
